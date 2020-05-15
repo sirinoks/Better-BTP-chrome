@@ -1,0 +1,7 @@
+Create a way to toggle dark theme
+
+Fix the footer
+
+Fix the nav spacing
+
+Create a small/hidden nav version (mobile friendly)
