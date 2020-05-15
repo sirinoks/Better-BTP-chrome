@@ -1,0 +1,18 @@
+{
+    "name": "BTP centered",
+    "version": "0.0",
+    "description": "Centers the page on BTP sites",
+    "manifest_version": 2,
+    "background": {
+      "scripts": ["background.js"]
+    },
+    "content_scripts": [
+      {
+        "matches": ["http://*/*", "https://*/*"],
+        "js": ["center.js"]
+      }
+    ],
+    "permisions": [
+      "tabs"
+    ]
+  }
