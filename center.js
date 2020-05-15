@@ -18,9 +18,12 @@ observer.observe(document, {
 */
 
 console.log("BTP!");
+const main = document.getElementById("top");
 const body = document.getElementsByTagName("body")[0];
 console.log(body);
-body.classList.add("center");
+console.log(main);
+
+main.classList.add("center");
 
 
 

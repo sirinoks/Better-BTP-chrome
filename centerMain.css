@@ -1,12 +1,17 @@
 html {
+    height: 100%;
     background-color: #f1f1f1;
     color: #080808;
+}
+
+body {
+    height: 100%;
 }
 
 .center {
     margin: 0, auto;
 }
 
-.tbanner {
+.tbanner img {
     background-color: #f1f1f1;
 }
