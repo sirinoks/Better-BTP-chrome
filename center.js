@@ -17,6 +17,11 @@ observer.observe(document, {
 
 */
 
+console.log("BTP!");
+const body = document.getElementsByTagName("body")[0];
+console.log(body);
+body.classList.add("center");
+
 
 
 /*
