@@ -1,0 +1,33 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100% !important;
+    background-color: #080808 !important; 
+    color: #f1f1f1 !important;
+}
+
+.panel2 {
+    background-color: #121212 !important;
+}
+
+.panel1 {
+    background-color: #394861 !important;
+}
+
+.tbody {
+    background-color: #121212 !important;
+}
+
+.center {
+    margin: 0, auto;
+}
+
+.banner {
+    background-color: #AEE7FC !important;
+}
+
+#top {
+    height: 100%;
+}
