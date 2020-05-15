@@ -8,8 +8,9 @@
     },
     "content_scripts": [
       {
-        "matches": ["http://*/*", "https://*/*"],
-        "js": ["center.js"]
+        "css": ["centerMain.css", "darkTheme.css"],
+        "js": ["center.js"],
+        "matches": ["http://*/*", "https://*/*"]
       }
     ],
     "permissions": [
