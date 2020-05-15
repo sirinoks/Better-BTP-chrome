@@ -4,12 +4,16 @@ html {
 
 body {
     height: 100% !important;
-    background-color: #f1f1f1 !important; 
+    background-color: #e5e5e5 !important; 
     color: #080808 !important;
 }
 
 .center {
     margin: 0, auto;
+}
+
+.panel3 {
+    background-color: #e5e5e5 !important;
 }
 
 .banner {

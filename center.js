@@ -13,3 +13,9 @@ console.log("header");
 console.log(header);
 header.remove();
 
+//change the theme
+function darkTheme(toggle) {//how do I do dis???
+    if(toggle) {
+        //document.getElementsByTagName("head").createElement("")
+    }
+}
