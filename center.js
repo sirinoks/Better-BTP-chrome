@@ -15,11 +15,17 @@ const footer = document.getElementsByTagName("tbody")[0].lastElementChild;
 console.log("footer:");
 console.log(footer);
 
-//fix the header
+//HEADER
+//remove the image
 const header = document.getElementsByClassName("tbanner")[0];
 console.log("header");
 console.log(header);
-header.remove();
+header.getElementsByTagName("img")[0].remove();
+//change the text of the header
+const headerText = document.getElementsByClassName("text0")[0];
+console.log(headerText);
+
+
 
 //remove img/license
 const rightFooter = footer.getElementsByClassName("panel2")[0];

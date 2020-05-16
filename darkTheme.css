@@ -21,6 +21,9 @@ body {
     color: #e5e5e5 !important;
 }
 
+.tbanner {
+    background-color: #69acb4 !important;
+}
 
 .panel1 {
     background-color: #2f3136 !important;
@@ -44,7 +47,7 @@ body {
 }
 
 .banner {
-    background-color: #AEE7FC !important;
+    background-color: #69acb4 !important;
 }
 
 #top {
