@@ -1,41 +1,53 @@
-//fix the alignment
-console.log("BTP!");
 const main = document.getElementById("top");
 const body = document.getElementsByTagName("body")[0];
-console.log(body);
-console.log(main);
 
-main.classList.add("center");
+
+//fix the alignment
+function align () {
+    console.log("BTP!");
+    console.log(body);
+    console.log(main);
+    
+    main.classList.add("center");    
+}
 
 //fix the main width
-main.removeAttribute("width");
+function width() {
+    main.removeAttribute("width");
+}
 
 //footer
-const footer = document.getElementsByTagName("tbody")[0].lastElementChild;
-console.log("footer:");
-console.log(footer);
+function footer() {
+    const footer = document.getElementsByTagName("tbody")[0].lastElementChild;
+    console.log("footer:");
+    console.log(footer);    
+}
 
 //HEADER
 //remove the image
-const header = document.getElementsByClassName("tbanner")[0];
-console.log("header");
-console.log(header);
-header.getElementsByTagName("img")[0].remove();
-//change the text of the header
-const headerText = document.getElementsByClassName("text0")[0];
-console.log(headerText);
+function header() {
+    const header = document.getElementsByClassName("tbanner")[0];
+    console.log("header");
+    console.log(header);
+    header.getElementsByTagName("img")[0].remove();
+    //change the text of the header
+    const headerText = document.getElementsByClassName("text0")[0];
+    console.log(headerText);    
+}
 
 
 
 //remove img/license
-const rightFooter = footer.getElementsByClassName("panel2")[0];
+function license() {
+    const rightFooter = footer.getElementsByClassName("panel2")[0];
 
-while(rightFooter.lastElementChild) {
-    rightFooter.removeChild(rightFooter.lastElementChild);
+    while(rightFooter.lastElementChild) {
+        rightFooter.removeChild(rightFooter.lastElementChild);
+    }
+    
+    //footer.getElementsByTagName("img")[0].remove();
+    //footer.getElementsByTagName("a")[0].remove();    
 }
-
-//footer.getElementsByTagName("img")[0].remove();
-//footer.getElementsByTagName("a")[0].remove();
 
 //change the theme
 function darkTheme(toggle) {//how do I do dis???
@@ -43,3 +55,9 @@ function darkTheme(toggle) {//how do I do dis???
         //document.getElementsByTagName("head").createElement("")
     }
 }
+
+
+align();
+width();
+header();
+license();
