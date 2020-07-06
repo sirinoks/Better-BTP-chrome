@@ -39,14 +39,11 @@ function header() {
 
 //remove img/license
 function license() {
-    const rightFooter = footer.getElementsByClassName("panel2")[0];
+    const logo = document.querySelector(`img[alt="Logo"]`);
+    const license = document.querySelector(`a[rel="license"]`);
+    logo.remove();
+    license.remove();
 
-    while(rightFooter.lastElementChild) {
-        rightFooter.removeChild(rightFooter.lastElementChild);
-    }
-    
-    //footer.getElementsByTagName("img")[0].remove();
-    //footer.getElementsByTagName("a")[0].remove();    
 }
 
 //change the theme
