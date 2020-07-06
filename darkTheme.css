@@ -3,17 +3,30 @@ html {
     height: 100%;
 }
 
+#tabnav li {
+    margin: 0.2vh !important;
+}
+
 #tabnav li a{
     background-color: #48494b !important;
-    border-radius: 0.5vh;
+    padding: 0.3vh !important;
+    /*border-radius: 0.5vh;*/
     border: none !important;
 }
 
 #mennav li a {
     background-color: #48494b !important;
-    border-radius: 0.5vh;
+    /*border-radius: 0.5vh;*/
     border: none !important;
 }
+
+#altnav li a{
+    background-color: #48494b !important;
+    padding: 0.3vh !important;
+    /*border-radius: 0.5vh;*/
+    border: none !important;
+}
+
 
 body {
     height: 100% !important;
