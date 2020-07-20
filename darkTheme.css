@@ -31,7 +31,8 @@ html {
 body {
     height: 100% !important;
     background-color: #0f0f11 !important; 
-    color: #e5e5e5 !important;
+    color: #c9bcbc !important;
+    /*color: #8a8db7 !important;*/
 }
 
 a {
@@ -118,3 +119,28 @@ td .content {
 .assess {
     background-color: #264238 !important;
 }
+
+.section {
+    color: #44c1ca !important;
+}
+
+.ssection {
+    color: #45abbd !important;
+}
+
+.sssection {
+    color: #4599B1 !important;
+}
+
+.texth {
+    color: #45abbd !important;
+}
+
+/*
+Good colors:
+text:
+6ed19f | 58bf8b
+
+
+
+*/

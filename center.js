@@ -8,7 +8,12 @@ function align () {
     console.log(body);
     console.log(main);
     
-    main.classList.add("center");    
+    if(main!=undefined) {
+        main.classList.add("center");
+    } else {
+        console.log("main not found");
+    }
+
 }
 
 //fix the main width
