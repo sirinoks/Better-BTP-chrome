@@ -37,15 +37,18 @@ function header() {
     header.getElementsByTagName("img")[0].remove();
     //change the text of the header
     const headerText = document.getElementsByClassName("text0")[0];
-    console.log(headerText);    
+    //headerText.classList.add("center");
+    console.log(headerText);
+
 }
 
 
 
 //remove img/license
 function license() {
-    const logo = document.querySelector(`img[src="../images/Logo.gif"]`) || document.querySelector(`img[src="pages/images/Logo.gif"]`);
-    const license = document.querySelector(`a[rel="license"]`);
+    const logo = document.querySelector(`img[src="../images/Logo.gif"]`) || document.querySelector(`img[src="pages/images/Logo.gif"]`) ||
+     document.querySelector(`img[src="../../pages/images/Logo.gif"]`) || document.querySelector(`img[src="images/Logo.gif"]`);
+    const license = document.querySelectorAll(`a[rel="license"]`);
 
     if(logo) {
         logo.remove();
@@ -53,8 +56,10 @@ function license() {
         console.log("logo was not found. Please let the author know when and where this happens.")
     }
 
-    if(license) {
-        license.remove();
+    if(license.length>0) {
+        license.forEach(img=>{
+            img.remove();
+        });
     } else {
         console.log("license was not found. Please let the author know when and where this happens.")
     }
@@ -74,9 +79,30 @@ function fixGap() {
     navPanel.removeAttribute("align");
 }
 
+//Fixes extreme for your eyes colors
+function fixDedColors() {
+    const blues = document.querySelectorAll(`[color="blue"]`);
+    const reds = document.querySelectorAll(`[color="red"]`);
+
+    if(blues.length>0){
+        blues.forEach(blue=>{
+            blue.removeAttribute("blue");
+            blue.classList.add("code");
+        });
+    }
+
+    if(reds.length>0){
+        reds.forEach(red=>{
+            red.removeAttribute("red");
+            red.classList.add("high");
+        });
+    }
+}
+
 
 align();
 width();
 header();
 license();
 fixGap();
+fixDedColors();
