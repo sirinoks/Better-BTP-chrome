@@ -27,6 +27,12 @@ html {
     border: none !important;
 }
 
+#altnav2 li a{
+    background-color: #48494b !important;
+    padding: 0.3vh !important;
+    /*border-radius: 0.5vh;*/
+    border: none !important;
+}
 
 body {
     height: 100% !important;
@@ -134,6 +140,19 @@ td .content {
 
 .texth {
     color: #45abbd !important;
+}
+
+.text3 {
+    color: #867676 !important;
+}
+
+.tbody>table>tbody>tr>td {
+    background-color: #202124 !important;
+}
+
+.navigate>td {
+    vertical-align: 0;
+    height: 4vh;
 }
 
 /*

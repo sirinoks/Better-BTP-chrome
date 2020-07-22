@@ -1,7 +1,7 @@
 {
-    "name": "BTP centered",
-    "version": "0.2",
-    "description": "Centers the page on BTP sites",
+    "name": "Better BTP",
+    "version": "0.3",
+    "description": "Improves the look of BTP sites",
     "manifest_version": 2,
     "background": {
       "scripts": ["background.js"]
