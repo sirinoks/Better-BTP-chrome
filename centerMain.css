@@ -12,7 +12,6 @@ body {
     margin: 0, auto;
     height: 100%;
     width: 70vh;
-
 }
 
 .panel3 {
@@ -21,7 +20,4 @@ body {
 
 .banner {
     background-color: #AEE7FC !important;
-}
-
-#top {
 }

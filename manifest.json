@@ -10,7 +10,7 @@
       {
         "css": ["centerMain.css", "darkTheme.css"],
         "js": ["center.js"],
-        "matches": ["*://ict.senecacollege.ca/~btp*"]
+        "matches": ["*://ict.senecacollege.ca/~btp*", "*://ict.senecacollege.ca/~oop*"]
       }
     ],
     "permissions": [
