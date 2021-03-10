@@ -10,7 +10,7 @@
       {
         "css": ["centerMain.css", "darkTheme.css"],
         "js": ["center.js"],
-        "matches": ["*://ict.senecacollege.ca/~btp*", "*://ict.senecacollege.ca/~oop*"]
+        "matches": ["*://ict.senecacollege.ca/~btp*", "*://ict.senecacollege.ca/~oop*", "*://ict.senecacollege.ca/~gpu621*", "*://sdds.senecacollege.ca//~chris.szalwinski*", "*://sdds.senecacollege.ca/~gpu621*"]
       }
     ],
     "permissions": [
